@@ -1,33 +1,14 @@
 {
  "cells": [
   {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "010c4463",
-   "metadata": {
-    "_execution_state": "idle",
-    "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
-    "papermill": {
-     "duration": 0.00673,
-     "end_time": "2024-06-12T12:08:10.790213",
-     "exception": false,
-     "start_time": "2024-06-12T12:08:10.783483",
-     "status": "completed"
-    },
-    "tags": []
-   },
-   "outputs": [],
-   "source": []
-  },
-  {
    "cell_type": "markdown",
-   "id": "accacc5e",
+   "id": "db3af85d",
    "metadata": {
     "papermill": {
-     "duration": 0.005497,
-     "end_time": "2024-06-12T12:08:10.801419",
+     "duration": 0.005556,
+     "end_time": "2024-06-12T12:11:27.245613",
      "exception": false,
-     "start_time": "2024-06-12T12:08:10.795922",
+     "start_time": "2024-06-12T12:11:27.240057",
      "status": "completed"
     },
     "tags": []
@@ -36,13 +17,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "85c0389c",
+   "id": "10e5d9fd",
    "metadata": {
     "papermill": {
-     "duration": 0.005752,
-     "end_time": "2024-06-12T12:08:10.813033",
+     "duration": 0.004795,
+     "end_time": "2024-06-12T12:11:27.254730",
      "exception": false,
-     "start_time": "2024-06-12T12:08:10.807281",
+     "start_time": "2024-06-12T12:11:27.249935",
      "status": "completed"
     },
     "tags": []
@@ -2671,13 +2652,7 @@
  "metadata": {
   "kaggle": {
    "accelerator": "none",
-   "dataSources": [
-    {
-     "datasetId": 5198618,
-     "sourceId": 8673592,
-     "sourceType": "datasetVersion"
-    }
-   ],
+   "dataSources": [],
    "dockerImageVersionId": 30618,
    "isGpuEnabled": false,
    "isInternetEnabled": true,
@@ -2699,14 +2674,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 4.707047,
-   "end_time": "2024-06-12T12:08:10.944103",
+   "duration": 4.167537,
+   "end_time": "2024-06-12T12:11:27.383197",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-06-12T12:08:06.237056",
+   "start_time": "2024-06-12T12:11:23.215660",
    "version": "2.5.0"
   }
  },
