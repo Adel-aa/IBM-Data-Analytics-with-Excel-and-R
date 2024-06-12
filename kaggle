@@ -3,15 +3,15 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "406910be",
+   "id": "010c4463",
    "metadata": {
     "_execution_state": "idle",
     "_uuid": "051d70d956493feee0c6d64651c6a088724dca2a",
     "papermill": {
-     "duration": 0.006144,
-     "end_time": "2024-06-11T23:56:26.249168",
+     "duration": 0.00673,
+     "end_time": "2024-06-12T12:08:10.790213",
      "exception": false,
-     "start_time": "2024-06-11T23:56:26.243024",
+     "start_time": "2024-06-12T12:08:10.783483",
      "status": "completed"
     },
     "tags": []
@@ -21,13 +21,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "eff567eb",
+   "id": "accacc5e",
    "metadata": {
     "papermill": {
-     "duration": 0.005093,
-     "end_time": "2024-06-11T23:56:26.259541",
+     "duration": 0.005497,
+     "end_time": "2024-06-12T12:08:10.801419",
      "exception": false,
-     "start_time": "2024-06-11T23:56:26.254448",
+     "start_time": "2024-06-12T12:08:10.795922",
      "status": "completed"
     },
     "tags": []
@@ -36,13 +36,13 @@
   },
   {
    "cell_type": "markdown",
-   "id": "f6a84bb0",
+   "id": "85c0389c",
    "metadata": {
     "papermill": {
-     "duration": 0.005282,
-     "end_time": "2024-06-11T23:56:26.270133",
+     "duration": 0.005752,
+     "end_time": "2024-06-12T12:08:10.813033",
      "exception": false,
-     "start_time": "2024-06-11T23:56:26.264851",
+     "start_time": "2024-06-12T12:08:10.807281",
      "status": "completed"
     },
     "tags": []
@@ -53,8 +53,7 @@
     "<head>\n",
     "    <meta charset=\"UTF-8\">\n",
     "    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n",
-    "    <title>Your Title Here</title>\n",
-    "    <link rel=\"stylesheet\" href=\"https://raw.githubusercontent.com/Adel-aa/IBM-Data-Analytics-with-Excel-and-R/master/Data%20Science%20with%20R%20-%20Capstone%20Project/styles.css\">\n",
+    "   \n",
     "</head>\n",
     "<body>\n",
     "<hr>\n",
@@ -1999,14 +1998,14 @@
     "<hr>\n",
     "<p>Here we show a scatter plot of <code>RENTED_BIKE_COUNT</code> vs. <code>DATE</code>, colored by <code>HOUR</code>.</p>\n",
     "\n",
-    "**Our scatter plot shows:**\n",
+    "<h3>Our scatter plot shows:</h3>\n",
     "<ul>\n",
     "  <li>Date for maximum rental: 19/06/2018</li>\n",
     "  <li>Hour for maximum rental: 18 (6 PM) (color)</li>\n",
     "  <li>Maximum Rental: 3556</li>\n",
     "</ul>\n",
     "\n",
-    "**Observations:**\n",
+    "<h3>Observations:</h3>\n",
     "<ul>\n",
     "  <li>The rented bike count starts below average during the first two hours (0:00 and 1:00).</li>\n",
     "  <li>The number of rented bikes decreases to its lowest point between 3:00 AM and 6:00 AM.</li>\n",
@@ -2025,7 +2024,7 @@
     "![Rented bike Density](https://raw.githubusercontent.com/Adel-aa/IBM-Data-Analytics-with-Excel-and-R/master/image/plot15.png)\n",
     "<hr>\n",
     "\n",
-    "**Show a histogram overlaid with a kernel density curve**\n",
+    "<h3>Show a histogram overlaid with a kernel density curve</h3>\n",
     "<ul>\n",
     "  <li>We can see from the histogram that most of the time there are relatively few bikes rented. Indeed, the 'mode', or most frequent amount of bikes rented, is about 250.  \n",
     "</li>\n",
@@ -2044,7 +2043,7 @@
     "\n",
     "![Correlation between Rented bike & Temp.](https://raw.githubusercontent.com/Adel-aa/IBM-Data-Analytics-with-Excel-and-R/master/image/plot16.png)\n",
     "<hr>\n",
-    "**Show a scatter plot show correlation between RENTED_BIKE_COUNT & TEMPERATURE**\n",
+    "<h3>Show a scatter plot show correlation between RENTED_BIKE_COUNT & TEMPERATURE</h3>\n",
     "<ul>\n",
     "  <li>classify them by SEASONS.  \n",
     "</li>\n",
@@ -2058,7 +2057,7 @@
     "\n",
     "![ Rented bike count per Hour.](https://raw.githubusercontent.com/Adel-aa/IBM-Data-Analytics-with-Excel-and-R/master/image/plot17.png)\n",
     "<hr>\n",
-    "**Display of four boxplots of `RENTED_BIKE_COUNT` vs. `HOUR` grouped by `SEASONS, it Shows :**\n",
+    "<h3>Display of four boxplots of `RENTED_BIKE_COUNT` vs. `HOUR` grouped by `SEASONS, it Shows </h3>\n",
     "<hr>\n",
     "<ul>\n",
     "  <li>More bike count rented in both Summer and Autumn , Average on spring and min on winter.\n",
@@ -2077,7 +2076,7 @@
     "![ Daily Rainfall & snowfall according to Data.](https://raw.githubusercontent.com/Adel-aa/IBM-Data-Analytics-with-Excel-and-R/master/image/plot18.png)\n",
     "\n",
     "<hr>\n",
-    "**Show a scatter plot:**\n",
+    "<h3>Show a scatter plot</h3>\n",
     "<ul>\n",
     "  <li>calculating the daily total rainfall and snowfall.\n",
     "</li>\n",
@@ -2443,7 +2442,7 @@
     "\n",
     "![Ranked coefficients](https://raw.githubusercontent.com/Adel-aa/IBM-Data-Analytics-with-Excel-and-R/master/image/plot20.png)\n",
     "\n",
-    "**Ranked coefficients:**\n",
+    "<h3>Ranked coefficients</h3>\n",
     "<ul>\n",
     "  <li>This is a bar chart showing the ranked coefficients of all independent variables relative to the dependent variable (RENTED_BIKE_COUNT).</li>\n",
     "  <li>Refer back to page 18 Weather Seasonality section. Now we become sure that we are on the right track, and we can list the top 3 ranked coefficients:\n",
@@ -2467,7 +2466,7 @@
     "\n",
     "![Best Model evaluation](https://raw.githubusercontent.com/Adel-aa/IBM-Data-Analytics-with-Excel-and-R/master/image/plot22.png)\n",
     "<hr>\n",
-    "**Ranked coefficients:**\n",
+    "<h3>Ranked coefficients</h3>\n",
     "<ul>\n",
     "  <li>The best performing model is model5 with:\n",
     "  <ul>\n",
@@ -2494,7 +2493,7 @@
     "\n",
     "![Q-Q plot](https://raw.githubusercontent.com/Adel-aa/IBM-Data-Analytics-with-Excel-and-R/master/image/plot24.png)\n",
     "\n",
-    "**This is a Q-Q plot of the best model’s  model 5 test results vs the truths**\n",
+    "<h3>This is a Q-Q plot of the best model’s  model 5 test results vs the truths</h3>\n",
     "<ul>\n",
     "  <li>(Truth) = Green\n",
     "  </li>\n",
@@ -2672,7 +2671,13 @@
  "metadata": {
   "kaggle": {
    "accelerator": "none",
-   "dataSources": [],
+   "dataSources": [
+    {
+     "datasetId": 5198618,
+     "sourceId": 8673592,
+     "sourceType": "datasetVersion"
+    }
+   ],
    "dockerImageVersionId": 30618,
    "isGpuEnabled": false,
    "isInternetEnabled": true,
@@ -2694,14 +2699,14 @@
   },
   "papermill": {
    "default_parameters": {},
-   "duration": 3.635294,
-   "end_time": "2024-06-11T23:56:26.397994",
+   "duration": 4.707047,
+   "end_time": "2024-06-12T12:08:10.944103",
    "environment_variables": {},
    "exception": null,
    "input_path": "__notebook__.ipynb",
    "output_path": "__notebook__.ipynb",
    "parameters": {},
-   "start_time": "2024-06-11T23:56:22.762700",
+   "start_time": "2024-06-12T12:08:06.237056",
    "version": "2.5.0"
   }
  },
